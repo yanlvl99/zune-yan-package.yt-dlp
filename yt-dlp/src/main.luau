@@ -806,7 +806,7 @@ export type SearchOptions = {
 
     ### Quick Start
     ```lua
-    local YtDlp = require("./Packages/yt-dlp")
+    local YtDlp = require("./path/to/yt-dlp")
 
     -- Check if yt-dlp is available
     if not YtDlp.isInstalled() then
